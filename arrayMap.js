@@ -3,8 +3,8 @@ var input = [
   { x: 12, y: 5 },
   { x: 8, y: 15 }
 ];
-var result = input.map(function(obj){
-  return Math.sqrt(Math.pow(obj.x, 2) + Math.pow(obj.y, 2));
+var result = input.map(function(element){
+  return Math.sqrt(Math.pow(element.x, 2) + Math.pow(element.y, 2));
 });
 
 console.log(result);
